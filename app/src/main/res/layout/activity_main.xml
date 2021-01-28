@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_hw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:text="Hello Hamizan"
+        android:textColor="@color/ungu"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hw"
+        android:text="@string/nama"
+        android:textColor="@color/ijotua"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nama"
+        android:text="@string/alamat"
+        android:textColor="@color/Hitam"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_hoby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_alamat"
+        android:text="@string/hoby"
+        android:textColor="@color/ijotua"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_kesukaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hoby"
+        android:text="@string/hoby"
+        android:textColor="@color/kuning"
+        android:textSize="40sp"
+        android:layout_margin="40dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@+id/tv_kesukaan"-->
+<!--        android:layout_margin="20dp"/>-->
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_kesukaan"
+        android:layout_marginLeft="150dp"
+        android:backgroundTint="@color/birulaut"
+        android:text="Move"
+        android:textColor="@color/cokelat"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

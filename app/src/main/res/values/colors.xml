@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#ee9595</color>
+    <color name="purple_500">#ef4f4f</color>
+    <color name="purple_700">#c70039</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="Hitam">#111d5e</color>
+    <color name="Putih">#efd9d1</color>
+    <color name="kuning">#ffe227</color>
+    <color name="ijotua">#295939</color>
+    <color name="ungu">#52057b</color>
+    <color name="ijo">#1f6f8b</color>
+    <color name="oren">#db6400</color>
+    <color name="merah">#eb596e</color>
+    <color name="cokelat">#663f3f</color>
+    <color name="birulaut">#bbf1fa</color>
+    <color name="pink">#ee9595</color>
+
+</resources>
